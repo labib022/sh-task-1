@@ -1,0 +1,39 @@
+/* open sans link */
+
+
+.open-sans-new{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: azure; 
+    
+    
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+  nav ul{
+    display: flex;
+    gap: 30px;
+  }
+
+nav ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
